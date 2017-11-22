@@ -16,6 +16,4 @@ int main() {
     std::cout << "\nIDs: ";
     std::copy(id_first, id_last, std::ostream_iterator<std::string>{std::cout, " "});
     std::cout << "\nNames: ";
-
-
 }
